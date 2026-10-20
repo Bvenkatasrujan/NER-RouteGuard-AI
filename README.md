@@ -10,6 +10,16 @@
 [![Leaflet / OSM](https://img.shields.io/badge/OpenStreetMap-Leaflet-199900?style=for-the-badge&logo=openstreetmap&logoColor=white)](https://www.openstreetmap.org/)
 [![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android%20%7C%20Web-4285F4?style=for-the-badge)](https://github.com/Bvenkatasrujan/NER-RouteGuard-AI)
 
+<br />
+
+<p align="center">
+  <img src="./assets/images/ner-routeguard-solution.jpg" alt="NER-RouteGuard AI - Proposed Solution Architecture" width="100%" />
+</p>
+
+<p align="center">
+  <em>Figure 1: End-to-End Operational Lifecycle — From Field Incident Reporting to RelayNet Offline Mesh, AI Risk Intelligence, and Hazard-Aware Safe Route Optimization.</em>
+</p>
+
 ---
 
 ## 📌 Table of Contents
@@ -505,13 +515,13 @@ cp .env.example .env
 
 Ensure your `.env` contains your Firebase project credentials:
 ```env
-EXPO_PUBLIC_FIREBASE_API_KEY=AIzaSyBLzjGHxSehAFwDE7pKrkzlUsPwqdh_thw
-EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=ner-routeguard-ai.firebaseapp.com
-EXPO_PUBLIC_FIREBASE_PROJECT_ID=ner-routeguard-ai
-EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=ner-routeguard-ai.firebasestorage.app
-EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=864439315232
-EXPO_PUBLIC_FIREBASE_APP_ID=1:864439315232:web:9d41127222cbcca1ecc545
-EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID=G-SYXMLSQLD8
+EXPO_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key_here
+EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
+EXPO_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project_id.firebasestorage.app
+EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+EXPO_PUBLIC_FIREBASE_APP_ID=your_firebase_app_id
+EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
 ```
 
 ---
