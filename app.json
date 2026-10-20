@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "NER-RouteGuard AI",
+    "slug": "ner-routeguard-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "ner-routeguard",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EAF1F7"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nerrouteguard.ai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#EAF1F7"
+      },
+      "package": "com.nerrouteguard.ai"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
